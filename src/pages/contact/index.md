@@ -1,8 +1,8 @@
 ---
-templateKey: 'contact-page'
+templateKey: contact-page
+title: Say hi!
 path: /contact
 menuLabel: Contact
 menuIndex: 8
-title: Contact
 excerpt: Get in touch!
 ---
