@@ -71,16 +71,16 @@ collections:
             { label: "Link URL", name: "linkURL", widget: "string" }
             ]
           }
-      - name: "about"
+      - name: "karo"
         file: "src/pages/about/index.md"
-        label: "About"
+        label: "Karo"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "about-page" }
+          - { label: "Template key", name: "templateKey", widget: "hidden", default: "karo-page" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Secondary Title", name: "secondTitle", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image" }
-          - { label: "Path", name: "path", widget: "hidden", default: "/about" }
+          - { label: "Path", name: "path", widget: "hidden", default: "/karito" }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
           - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 2 }
       - name: "press"
