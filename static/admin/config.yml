@@ -49,11 +49,11 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - name: "hello"
+      - name: "home"
         file: "src/pages/index.md"
-        label: "Hello"
+        label: "Home"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "hello-page" }
+          - { label: "Template key", name: "templateKey", widget: "hidden", default: "home-page" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Heading Background", name: "headingBg", widget: "image" }
           - { label: "Profile image", name: "profileImg", widget: "image" }
@@ -71,16 +71,16 @@ collections:
             { label: "Link URL", name: "linkURL", widget: "string" }
             ]
           }
-      - name: "karo"
+      - name: "about"
         file: "src/pages/about/index.md"
-        label: "Karo"
+        label: "About"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "karo-page" }
+          - { label: "Template key", name: "templateKey", widget: "hidden", default: "about-page" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Secondary Title", name: "secondTitle", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image" }
-          - { label: "Path", name: "path", widget: "hidden", default: "/karito" }
+          - { label: "Path", name: "path", widget: "hidden", default: "/about" }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
           - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 2 }
       - name: "press"

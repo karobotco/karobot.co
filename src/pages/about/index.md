@@ -1,10 +1,10 @@
 ---
-templateKey: karo-page
+templateKey: about-page
 title: __about__.py
 secondTitle: Karo Ladino
 image: /assets/avatar.jpg
-path: /karo
-menuLabel: Karo
+path: /about
+menuLabel: About
 menuIndex: 2
 ---
 
